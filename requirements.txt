@@ -1,0 +1,41 @@
+# RAG Academic Paper QA System — Dependencies
+# Install: pip install -r requirements.txt
+#
+# Version pins follow the SBYEC project's verified working combinations.
+# Key constraint: numpy<2.0.0 (faiss-cpu and some sentence-transformers
+# versions use deprecated np.float_ removed in NumPy 2.0).
+
+# PDF parsing
+pymupdf>=1.23.0
+
+# ArXiv paper downloader
+arxiv>=2.1.0
+
+# LangChain ecosystem (chunking, LLM wrappers)
+langchain>=0.3.0,<0.4.0
+langchain-community>=0.3.0,<0.4.0
+langchain-groq>=0.2.0,<1.0.0
+
+# Vector store
+faiss-cpu>=1.7.0
+
+# Embedding & reranking models
+sentence-transformers>=2.3.0,<3.0.0
+
+# Sparse retrieval
+rank-bm25>=0.2.2
+
+# Numerics — keep below 2.0 for faiss-cpu compatibility
+numpy>=1.24.0,<2.0.0
+
+# RAG evaluation framework
+ragas>=0.1.0
+
+# Environment variable loading
+python-dotenv>=1.0.0
+
+# Token counting (for chunk size estimation)
+tiktoken>=0.5.0
+
+# Groq Python client
+groq>=0.4.0

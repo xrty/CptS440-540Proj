@@ -82,3 +82,31 @@
 | 5.2 | **Write-up:** Final report — motivate the problem; explain search algorithm theory (BM25/TF-IDF, ANN/IVF/HNSW) tied to the course "search" theme; describe methodology; report results | **All** (Zijian: data section, Tong: retrieval section, Yuqi: reranking & generation section, Yuhang: evaluation section + overall editing) |
 | 5.3 | **Slides:** 10-minute presentation highlighting pipeline architecture, experiment results, and key findings | **All** |
 | 5.4 | **GitHub Polish:** Code comments, README, clean project structure, dependency list | **All** |
+
+---
+
+## Quick Start
+
+**Prerequisites:** Python 3.10+, [Groq API key](https://console.groq.com) (free)
+
+```bash
+# 1. Install dependencies
+pip install -r requirements.txt
+
+# 2. Configure API key
+cp .env.example .env
+# Edit .env and set: GROQ_API_KEY=your_key_here
+
+# 3. Download papers and build indexes (first time only)
+python src/ingest.py --arxiv --max 20
+python src/build_index.py
+
+# 4. Start interactive QA
+python src/pipeline.py
+```
+
+To target a specific topic:
+```bash
+python src/ingest.py --arxiv --max 50 --query "retrieval augmented generation"
+python src/build_index.py --rebuild
+```

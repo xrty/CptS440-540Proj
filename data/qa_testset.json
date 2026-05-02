@@ -1,18 +1,608 @@
 [
   {
-    "question": "What is the key contribution of the Attention Is All You Need paper?",
-    "ground_truth_answer": "The paper introduces the Transformer architecture, which relies entirely on self-attention mechanisms without recurrence or convolution, achieving state-of-the-art results on machine translation tasks.",
-    "relevant_chunk_ids": [],
-    "source_paper": "Attention Is All You Need",
-    "arxiv_id": "1706.03762",
-    "notes": "PLACEHOLDER — replace relevant_chunk_ids after running ingest.py"
+    "question": "What are some safety-critical domains where robotic systems have been widely deployed, according to the passage?",
+    "ground_truth_answer": "Autonomous driving, industrial automation, and warehouse logistics.",
+    "relevant_chunk_ids": [
+      "2602.24235v1_p0_c0",
+      "2602.24235v1_p0_c1",
+      "2602.24235v1_p0_c2",
+      "2602.24235v1_p1_c3"
+    ],
+    "source_paper": "SafeGen-LLM: Enhancing Safety Generalization in Task Planning for Robotic Systems",
+    "arxiv_id": "2602.24235v1",
+    "notes": "Auto-generated from chunk 2602.24235v1_p0_c0",
+    "type": "factual"
   },
   {
-    "question": "How does BERT use bidirectional context for language understanding?",
-    "ground_truth_answer": "BERT pre-trains a deep bidirectional Transformer by conditioning on both left and right context simultaneously using a masked language modeling objective, allowing it to capture richer representations than unidirectional models.",
-    "relevant_chunk_ids": [],
-    "source_paper": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
-    "arxiv_id": "1810.04805",
-    "notes": "PLACEHOLDER — replace relevant_chunk_ids after running ingest.py"
+    "question": "What was the precondition violation rate for the Pretrained, SFT, and GRPO stages in the Blocksworld domain?",
+    "ground_truth_answer": "98% for Pretrained, 20% for SFT, and 8% for GRPO.",
+    "relevant_chunk_ids": [
+      "2602.24235v1_p6_c19",
+      "2602.24235v1_p5_c15",
+      "2602.24235v1_p5_c16",
+      "2602.24235v1_p5_c17"
+    ],
+    "source_paper": "SafeGen-LLM: Enhancing Safety Generalization in Task Planning for Robotic Systems",
+    "arxiv_id": "2602.24235v1",
+    "notes": "Auto-generated from chunk 2602.24235v1_p6_c19",
+    "type": "factual"
+  },
+  {
+    "question": "What is the timeout period set for validating each generated plan using the VAL tool?",
+    "ground_truth_answer": "30 seconds",
+    "relevant_chunk_ids": [
+      "2602.24235v1_p11_c36",
+      "2602.24235v1_p10_c33",
+      "2602.24235v1_p10_c34",
+      "2602.24235v1_p10_c35"
+    ],
+    "source_paper": "SafeGen-LLM: Enhancing Safety Generalization in Task Planning for Robotic Systems",
+    "arxiv_id": "2602.24235v1",
+    "notes": "Auto-generated from chunk 2602.24235v1_p11_c36",
+    "type": "factual"
+  },
+  {
+    "question": "What average accuracy did the FaultXformer model achieve in fault type classification?",
+    "ground_truth_answer": "98.76%",
+    "relevant_chunk_ids": [
+      "2602.24254v1_p0_c0",
+      "2602.24254v1_p1_c1"
+    ],
+    "source_paper": "FaultXformer: A Transformer-Encoder Based Fault Classification and Location Identification model in PMU-Integrated Active Electrical Distribution System",
+    "arxiv_id": "2602.24254v1",
+    "notes": "Auto-generated from chunk 2602.24254v1_p0_c0",
+    "type": "factual"
+  },
+  {
+    "question": "What mathematical functions are used to calculate the positional encodings PE(pos,2i) and PE(pos,2i+1) in the Transformer Encoder model?",
+    "ground_truth_answer": "Sine and cosine functions, as given by equations (6) PE(pos,2i) = sin(pos/2i/dmodel) and (7) PE(pos,2i+1) = cos(pos/2i/dmodel).",
+    "relevant_chunk_ids": [
+      "2602.24254v1_p13_c16",
+      "2602.24254v1_p12_c15",
+      "2602.24254v1_p14_c17",
+      "2602.24254v1_p14_c18"
+    ],
+    "source_paper": "FaultXformer: A Transformer-Encoder Based Fault Classification and Location Identification model in PMU-Integrated Active Electrical Distribution System",
+    "arxiv_id": "2602.24254v1",
+    "notes": "Auto-generated from chunk 2602.24254v1_p13_c16",
+    "type": "factual"
+  },
+  {
+    "question": "In what year was the paper \"Attention is all you need\" by Ashish Vaswani et al. published?",
+    "ground_truth_answer": "2017",
+    "relevant_chunk_ids": [
+      "2602.24254v1_p26_c39",
+      "2602.24254v1_p25_c37",
+      "2602.24254v1_p25_c38",
+      "2602.24254v1_p26_c40"
+    ],
+    "source_paper": "FaultXformer: A Transformer-Encoder Based Fault Classification and Location Identification model in PMU-Integrated Active Electrical Distribution System",
+    "arxiv_id": "2602.24254v1",
+    "notes": "Auto-generated from chunk 2602.24254v1_p26_c39",
+    "type": "factual"
+  },
+  {
+    "question": "Who is the author of the paper \"Efficient Discovery of Approximate Causal Abstractions via Neural Mechanism Sparsification\"?",
+    "ground_truth_answer": "Amir Asiaee",
+    "relevant_chunk_ids": [
+      "2602.24266v1_p0_c0",
+      "2602.24266v1_p0_c1",
+      "2602.24266v1_p1_c2",
+      "2602.24266v1_p1_c3"
+    ],
+    "source_paper": "Efficient Discovery of Approximate Causal Abstractions via Neural Mechanism Sparsification",
+    "arxiv_id": "2602.24266v1",
+    "notes": "Auto-generated from chunk 2602.24266v1_p0_c0",
+    "type": "factual"
+  },
+  {
+    "question": "What is the number of training examples used in the calibration set for discovery?",
+    "ground_truth_answer": "2000",
+    "relevant_chunk_ids": [
+      "2602.24266v1_p9_c18",
+      "2602.24266v1_p8_c16",
+      "2602.24266v1_p8_c17",
+      "2602.24266v1_p9_c19"
+    ],
+    "source_paper": "Efficient Discovery of Approximate Causal Abstractions via Neural Mechanism Sparsification",
+    "arxiv_id": "2602.24266v1",
+    "notes": "Auto-generated from chunk 2602.24266v1_p9_c18",
+    "type": "factual"
+  },
+  {
+    "question": "What is the mean wall-clock timing for the \"compile affine\" operation in the first instance it appears in Table 3?",
+    "ground_truth_answer": "0.3151 seconds",
+    "relevant_chunk_ids": [
+      "2602.24266v1_p17_c31",
+      "2602.24266v1_p16_c30"
+    ],
+    "source_paper": "Efficient Discovery of Approximate Causal Abstractions via Neural Mechanism Sparsification",
+    "arxiv_id": "2602.24266v1",
+    "notes": "Auto-generated from chunk 2602.24266v1_p17_c31",
+    "type": "factual"
+  },
+  {
+    "question": "What is the name of the popular interactive theorem prover mentioned in the passage, especially used in the AI and math community?",
+    "ground_truth_answer": "Lean",
+    "relevant_chunk_ids": [
+      "2602.24273v1_p0_c0",
+      "2602.24273v1_p0_c1",
+      "2602.24273v1_p1_c2",
+      "2602.24273v1_p1_c3"
+    ],
+    "source_paper": "A Minimal Agent for Automated Theorem Proving",
+    "arxiv_id": "2602.24273v1",
+    "notes": "Auto-generated from chunk 2602.24273v1_p0_c0",
+    "type": "factual"
+  },
+  {
+    "question": "In what year was the paper \"Draft, Sketch, and Prove: Guiding Formal Theorem Provers with Informal Proofs\" by Albert Q. Jiang et al. published?",
+    "ground_truth_answer": "2023.",
+    "relevant_chunk_ids": [
+      "2602.24273v1_p11_c23",
+      "2602.24273v1_p10_c21",
+      "2602.24273v1_p10_c22",
+      "2602.24273v1_p11_c24"
+    ],
+    "source_paper": "A Minimal Agent for Automated Theorem Proving",
+    "arxiv_id": "2602.24273v1",
+    "notes": "Auto-generated from chunk 2602.24273v1_p11_c23",
+    "type": "factual"
+  },
+  {
+    "question": "What is the average compute budget for the Aleph Prover with a $1400 limit, as listed in Table 3 of the PutnamBench Lean Leaderboard?",
+    "ground_truth_answer": "Avg $68",
+    "relevant_chunk_ids": [
+      "2602.24273v1_p22_c37",
+      "2602.24273v1_p21_c36"
+    ],
+    "source_paper": "A Minimal Agent for Automated Theorem Proving",
+    "arxiv_id": "2602.24273v1",
+    "notes": "Auto-generated from chunk 2602.24273v1_p22_c37",
+    "type": "factual"
+  },
+  {
+    "question": "What is the name of the track that provided a venue for researchers to develop and evaluate assistive RAG systems for news trustworthiness assessment?",
+    "ground_truth_answer": "TREC 2025 DRAGUN (Detection, Retrieval, and Augmented Generation for Understanding News) Track",
+    "relevant_chunk_ids": [
+      "2602.24277v1_p0_c0",
+      "2602.24277v1_p0_c1",
+      "2602.24277v1_p0_c2",
+      "2602.24277v1_p0_c3"
+    ],
+    "source_paper": "Resources for Automated Evaluation of Assistive RAG Systems that Help Readers with News Trustworthiness Assessment",
+    "arxiv_id": "2602.24277v1",
+    "notes": "Auto-generated from chunk 2602.24277v1_p0_c0",
+    "type": "factual"
+  },
+  {
+    "question": "What was the True Positive Rate achieved by the classifier used to automatically identify and filter out compound questions?",
+    "ground_truth_answer": "0.989",
+    "relevant_chunk_ids": [
+      "2602.24277v1_p3_c14",
+      "2602.24277v1_p2_c8",
+      "2602.24277v1_p2_c9",
+      "2602.24277v1_p2_c10"
+    ],
+    "source_paper": "Resources for Automated Evaluation of Assistive RAG Systems that Help Readers with News Trustworthiness Assessment",
+    "arxiv_id": "2602.24277v1",
+    "notes": "Auto-generated from chunk 2602.24277v1_p3_c14",
+    "type": "factual"
+  },
+  {
+    "question": "In what year was the paper \"Social Media and Fake News in the 2016 Election\" by Hunt Allcott and Matthew Gentzkow published?",
+    "ground_truth_answer": "2017",
+    "relevant_chunk_ids": [
+      "2602.24277v1_p6_c26",
+      "2602.24277v1_p5_c22",
+      "2602.24277v1_p5_c23",
+      "2602.24277v1_p5_c24"
+    ],
+    "source_paper": "Resources for Automated Evaluation of Assistive RAG Systems that Help Readers with News Trustworthiness Assessment",
+    "arxiv_id": "2602.24277v1",
+    "notes": "Auto-generated from chunk 2602.24277v1_p6_c26",
+    "type": "factual"
+  },
+  {
+    "question": "Who is the corresponding author of the paper \"Memory Caching: RNNs with Growing Memory\"?",
+    "ground_truth_answer": "Ali Behrouz",
+    "relevant_chunk_ids": [
+      "2602.24281v1_p0_c0",
+      "2602.24281v1_p0_c1",
+      "2602.24281v1_p0_c2",
+      "2602.24281v1_p1_c3"
+    ],
+    "source_paper": "Memory Caching: RNNs with Growing Memory",
+    "arxiv_id": "2602.24281v1",
+    "notes": "Auto-generated from chunk 2602.24281v1_p0_c0",
+    "type": "factual"
+  },
+  {
+    "question": "What is the accuracy of the Transformer model on the SQuAD task when the input is truncated to 2048 tokens?",
+    "ground_truth_answer": "33.1",
+    "relevant_chunk_ids": [
+      "2602.24281v1_p11_c33",
+      "2602.24281v1_p10_c30",
+      "2602.24281v1_p10_c31",
+      "2602.24281v1_p10_c32"
+    ],
+    "source_paper": "Memory Caching: RNNs with Growing Memory",
+    "arxiv_id": "2602.24281v1",
+    "notes": "Auto-generated from chunk 2602.24281v1_p11_c33",
+    "type": "factual"
+  },
+  {
+    "question": "What is the peak learning rate for the 30B model according to Table 6 in the paper \"Memory Caching: RNNs with Growing Memory\"?",
+    "ground_truth_answer": "1.25e-3",
+    "relevant_chunk_ids": [
+      "2602.24281v1_p21_c58",
+      "2602.24281v1_p20_c54",
+      "2602.24281v1_p20_c55",
+      "2602.24281v1_p20_c56"
+    ],
+    "source_paper": "Memory Caching: RNNs with Growing Memory",
+    "arxiv_id": "2602.24281v1",
+    "notes": "Auto-generated from chunk 2602.24281v1_p21_c58",
+    "type": "factual"
+  },
+  {
+    "question": "What is the range of model sizes that the authors scaled from when pre-training models from the Llama architecture family using LoRA-Pre?",
+    "ground_truth_answer": "60M to 1B parameters.",
+    "relevant_chunk_ids": [
+      "2602.24283v1_p0_c0",
+      "2602.24283v1_p0_c1",
+      "2602.24283v1_p1_c2",
+      "2602.24283v1_p1_c3"
+    ],
+    "source_paper": "Taming Momentum: Rethinking Optimizer States Through Low-Rank Approximation",
+    "arxiv_id": "2602.24283v1",
+    "notes": "Auto-generated from chunk 2602.24283v1_p0_c0",
+    "type": "factual"
+  },
+  {
+    "question": "What is the update rule for mB in Newton's method for the optimization problem minmB,mA L(mB, mA; g) = 1/2 * mBmA g2 F?",
+    "ground_truth_answer": "mB (1 1)  mB + 1  gmA T (mAmT A)1.",
+    "relevant_chunk_ids": [
+      "2602.24283v1_p12_c29",
+      "2602.24283v1_p11_c27",
+      "2602.24283v1_p11_c28",
+      "2602.24283v1_p13_c30"
+    ],
+    "source_paper": "Taming Momentum: Rethinking Optimizer States Through Low-Rank Approximation",
+    "arxiv_id": "2602.24283v1",
+    "notes": "Auto-generated from chunk 2602.24283v1_p12_c29",
+    "type": "factual"
+  },
+  {
+    "question": "At which conference was the paper \"Taming Momentum: Rethinking Optimizer States Through Low-Rank Approximation\" published?",
+    "ground_truth_answer": "ICLR 2026",
+    "relevant_chunk_ids": [
+      "2602.24283v1_p23_c47",
+      "2602.24283v1_p22_c45",
+      "2602.24283v1_p22_c46"
+    ],
+    "source_paper": "Taming Momentum: Rethinking Optimizer States Through Low-Rank Approximation",
+    "arxiv_id": "2602.24283v1",
+    "notes": "Auto-generated from chunk 2602.24283v1_p23_c47",
+    "type": "factual"
+  },
+  {
+    "question": "What percentage faster rate does CUDA Agent achieve over torch.compile on the KernelBench Level-3 split?",
+    "ground_truth_answer": "92%",
+    "relevant_chunk_ids": [
+      "2602.24286v1_p0_c0",
+      "2602.24286v1_p0_c1",
+      "2602.24286v1_p1_c2",
+      "2602.24286v1_p1_c3"
+    ],
+    "source_paper": "CUDA Agent: Large-Scale Agentic RL for High-Performance CUDA Kernel Generation",
+    "arxiv_id": "2602.24286v1",
+    "notes": "Auto-generated from chunk 2602.24286v1_p0_c0",
+    "type": "factual"
+  },
+  {
+    "question": "What is the threshold value used to determine the distribution of the maximum AST similarity between each training sample and all evaluation samples?",
+    "ground_truth_answer": "0.9",
+    "relevant_chunk_ids": [
+      "2602.24286v1_p12_c31",
+      "2602.24286v1_p11_c29",
+      "2602.24286v1_p11_c30",
+      "2602.24286v1_p13_c32"
+    ],
+    "source_paper": "CUDA Agent: Large-Scale Agentic RL for High-Performance CUDA Kernel Generation",
+    "arxiv_id": "2602.24286v1",
+    "notes": "Auto-generated from chunk 2602.24286v1_p12_c31",
+    "type": "factual"
+  },
+  {
+    "question": "What is the main reason the authors did not compare CUDA Agent against more sophisticated compiler frameworks like TVM?",
+    "ground_truth_answer": "The substantial tuning overhead and complex deployment requirements of these systems make them difficult to integrate into a large-scale RL training loop.",
+    "relevant_chunk_ids": [
+      "2602.24286v1_p31_c59"
+    ],
+    "source_paper": "CUDA Agent: Large-Scale Agentic RL for High-Performance CUDA Kernel Generation",
+    "arxiv_id": "2602.24286v1",
+    "notes": "Auto-generated from chunk 2602.24286v1_p31_c59",
+    "type": "factual"
+  },
+  {
+    "question": "What percentage of multi-turn conversations consist of self-contained prompts, according to the authors' findings?",
+    "ground_truth_answer": "36.4%",
+    "relevant_chunk_ids": [
+      "2602.24287v1_p0_c0",
+      "2602.24287v1_p0_c1",
+      "2602.24287v1_p1_c2",
+      "2602.24287v1_p1_c3"
+    ],
+    "source_paper": "Do LLMs Benefit From Their Own Words?",
+    "arxiv_id": "2602.24287v1",
+    "notes": "Auto-generated from chunk 2602.24287v1_p0_c0",
+    "type": "factual"
+  },
+  {
+    "question": "What method is used to summarize the assistant responses in the conversation history for the Summarized Context configuration?",
+    "ground_truth_answer": "The model summarizes its own response using the prompt: Summarize the following assistant response in exactly one sentence: [response].",
+    "relevant_chunk_ids": [
+      "2602.24287v1_p18_c39",
+      "2602.24287v1_p17_c37",
+      "2602.24287v1_p17_c38",
+      "2602.24287v1_p18_c40"
+    ],
+    "source_paper": "Do LLMs Benefit From Their Own Words?",
+    "arxiv_id": "2602.24287v1",
+    "notes": "Auto-generated from chunk 2602.24287v1_p18_c39",
+    "type": "factual"
+  },
+  {
+    "question": "What is the scale used for evaluating the Overall Quality Score and the On-Topic Score in the given task?",
+    "ground_truth_answer": "1-10 scale.",
+    "relevant_chunk_ids": [
+      "2602.24287v1_p34_c65",
+      "2602.24287v1_p33_c63",
+      "2602.24287v1_p33_c64"
+    ],
+    "source_paper": "Do LLMs Benefit From Their Own Words?",
+    "arxiv_id": "2602.24287v1",
+    "notes": "Auto-generated from chunk 2602.24287v1_p34_c65",
+    "type": "factual"
+  },
+  {
+    "question": "How many Kaggle-derived tasks are included in the DARE-bench benchmark?",
+    "ground_truth_answer": "6,300",
+    "relevant_chunk_ids": [
+      "2602.24288v1_p0_c0",
+      "2602.24288v1_p0_c1",
+      "2602.24288v1_p1_c2",
+      "2602.24288v1_p1_c3"
+    ],
+    "source_paper": "DARE-bench: Evaluating Modeling and Instruction Fidelity of LLMs in Data Science",
+    "arxiv_id": "2602.24288v1",
+    "notes": "Auto-generated from chunk 2602.24288v1_p0_c0",
+    "type": "factual"
+  },
+  {
+    "question": "What is the model sequence length used for reinforcement learning experiments in the DARE-bench evaluation?",
+    "ground_truth_answer": "32,768",
+    "relevant_chunk_ids": [
+      "2602.24288v1_p17_c38",
+      "2602.24288v1_p16_c36",
+      "2602.24288v1_p16_c37",
+      "2602.24288v1_p18_c39"
+    ],
+    "source_paper": "DARE-bench: Evaluating Modeling and Instruction Fidelity of LLMs in Data Science",
+    "arxiv_id": "2602.24288v1",
+    "notes": "Auto-generated from chunk 2602.24288v1_p17_c38",
+    "type": "factual"
+  },
+  {
+    "question": "How many tasks are included in the DARE-bench benchmark?",
+    "ground_truth_answer": "6,300 tasks",
+    "relevant_chunk_ids": [
+      "2602.24288v1_p33_c62",
+      "2602.24288v1_p32_c61",
+      "2602.24288v1_p33_c63"
+    ],
+    "source_paper": "DARE-bench: Evaluating Modeling and Instruction Fidelity of LLMs in Data Science",
+    "arxiv_id": "2602.24288v1",
+    "notes": "Auto-generated from chunk 2602.24288v1_p33_c62",
+    "type": "factual"
+  },
+  {
+    "question": "What happens when autonomous robots make wrong decisions in physical environments?",
+    "ground_truth_answer": "Unsafe decisions may lead to irreversible consequences. For instance, in autonomous driving, a planning error can result in collisions; in industrial automation, unsafe operations may damage equipment or harm workers.",
+    "relevant_chunk_ids": [
+      "2602.24235v1_p0_c1",
+      "2602.24235v1_p0_c0",
+      "2602.24235v1_p0_c2",
+      "2602.24235v1_p1_c3"
+    ],
+    "source_paper": "SafeGen-LLM: Enhancing Safety Generalization in Task Planning for Robotic Systems",
+    "arxiv_id": "2602.24235v1",
+    "type": "semantic",
+    "notes": "Semantic paraphrase: uses wrong decisions instead of unsafe decisions, physical environments instead of physical world"
+  },
+  {
+    "question": "Why are traditional reinforcement learning approaches insufficient for mission-critical robot planning?",
+    "ground_truth_answer": "RL-based planners face critical limitations: limited generalization (trained policies typically handle only a single planning task) and high data and interaction cost (achieving reliable performance requires extensive environment interactions).",
+    "relevant_chunk_ids": [
+      "2602.24235v1_p0_c2",
+      "2602.24235v1_p0_c1",
+      "2602.24235v1_p1_c3"
+    ],
+    "source_paper": "SafeGen-LLM: Enhancing Safety Generalization in Task Planning for Robotic Systems",
+    "arxiv_id": "2602.24235v1",
+    "type": "semantic",
+    "notes": "Semantic paraphrase: uses insufficient instead of face critical limitations"
+  },
+  {
+    "question": "How does the transformer-based approach compare to traditional neural networks for detecting power grid problems?",
+    "ground_truth_answer": "FaultXformer surpasses conventional deep learning baselines: CNN by 1.70%, RNN by 34.95%, and LSTM by 2.04% in classification accuracy, and by 10.82%, 40.89%, and 6.27% in location accuracy respectively.",
+    "relevant_chunk_ids": [
+      "2602.24254v1_p1_c1",
+      "2602.24254v1_p0_c0",
+      "2602.24254v1_p2_c2"
+    ],
+    "source_paper": "FaultXformer: A Transformer-Encoder Based Fault Classification and Location Identification model in PMU-Integrated Active Electrical Distribution System",
+    "arxiv_id": "2602.24254v1",
+    "type": "semantic",
+    "notes": "Semantic paraphrase: uses power grid problems instead of fault classification, traditional neural networks instead of CNN/RNN/LSTM"
+  },
+  {
+    "question": "How can we simplify our understanding of complex neural network computations at a higher conceptual level?",
+    "ground_truth_answer": "Through causal abstraction, which formalizes when a complex, low-level causal model admits a simpler high-level description via a state map and an intervention map, extracting faithful high-level causal descriptions of how models compute their outputs.",
+    "relevant_chunk_ids": [
+      "2602.24266v1_p0_c1",
+      "2602.24266v1_p0_c0",
+      "2602.24266v1_p1_c2",
+      "2602.24266v1_p1_c3"
+    ],
+    "source_paper": "Efficient Discovery of Approximate Causal Abstractions via Neural Mechanism Sparsification",
+    "arxiv_id": "2602.24266v1",
+    "type": "semantic",
+    "notes": "Semantic paraphrase: uses simplify understanding instead of extracting faithful descriptions"
+  },
+  {
+    "question": "What prevents AI theorem provers from wasting time by repeatedly attempting the same unsuccessful approaches?",
+    "ground_truth_answer": "Memory mechanisms prevent the prover from running in circles, yielding the second largest performance boost.",
+    "relevant_chunk_ids": [
+      "2602.24273v1_p1_c3",
+      "2602.24273v1_p1_c2",
+      "2602.24273v1_p0_c1"
+    ],
+    "source_paper": "A Minimal Agent for Automated Theorem Proving",
+    "arxiv_id": "2602.24273v1",
+    "type": "semantic",
+    "notes": "Semantic paraphrase: uses wasting time/unsuccessful approaches instead of running in circles"
+  },
+  {
+    "question": "Why is it difficult to maintain AI-based mathematical proof systems as their underlying tools evolve?",
+    "ground_truth_answer": "Due to the fast release cadence of new versions of Lean and Mathlib, these systems may quickly lose their practical applicability.",
+    "relevant_chunk_ids": [
+      "2602.24273v1_p1_c2",
+      "2602.24273v1_p0_c1",
+      "2602.24273v1_p1_c3"
+    ],
+    "source_paper": "A Minimal Agent for Automated Theorem Proving",
+    "arxiv_id": "2602.24273v1",
+    "type": "semantic",
+    "notes": "Semantic paraphrase: uses maintain/tools evolve instead of practical applicability/release cadence"
+  },
+  {
+    "question": "How do professional information verifiers approach news articles differently compared to ordinary people?",
+    "ground_truth_answer": "Expert fact-checkers behave differently from typical readers. Novices often read vertically, staying on the page and relying on on-page cues, while experts read laterally, checking external sources.",
+    "relevant_chunk_ids": [
+      "2602.24277v1_p0_c2",
+      "2602.24277v1_p0_c1",
+      "2602.24277v1_p0_c3"
+    ],
+    "source_paper": "Resources for Automated Evaluation of Assistive RAG Systems that Help Readers with News Trustworthiness Assessment",
+    "arxiv_id": "2602.24277v1",
+    "type": "semantic",
+    "notes": "Semantic paraphrase: uses professional information verifiers/ordinary people instead of expert fact-checkers/typical readers"
+  },
+  {
+    "question": "How can sequence models process longer texts without forgetting earlier content?",
+    "ground_truth_answer": "Memory Caching (MC) allows the effective memory of recurrent models to grow with sequence length by caching checkpoints of the memory states.",
+    "relevant_chunk_ids": [
+      "2602.24281v1_p0_c2",
+      "2602.24281v1_p0_c1",
+      "2602.24281v1_p1_c3"
+    ],
+    "source_paper": "Memory Caching: RNNs with Growing Memory",
+    "arxiv_id": "2602.24281v1",
+    "type": "semantic",
+    "notes": "Semantic paraphrase: uses process longer texts/forgetting earlier content instead of grow with sequence length/memory states"
+  },
+  {
+    "question": "Is there a middle-ground architecture that balances the efficiency of sequential processing with the expressiveness of attention mechanisms?",
+    "ground_truth_answer": "Memory Caching provides a flexible middle ground interpolating between standard recurrence and attention, offering controllable complexity of O(NL) between O(L) of RNNs and O(L^2) of Transformers.",
+    "relevant_chunk_ids": [
+      "2602.24281v1_p1_c3",
+      "2602.24281v1_p0_c2",
+      "2602.24281v1_p0_c1"
+    ],
+    "source_paper": "Memory Caching: RNNs with Growing Memory",
+    "arxiv_id": "2602.24281v1",
+    "type": "semantic",
+    "notes": "Semantic paraphrase: uses middle-ground architecture/sequential processing/attention mechanisms instead of interpolating/recurrence/attention"
+  },
+  {
+    "question": "How can we reduce GPU memory consumption when training large AI models by compressing the optimizer internal state?",
+    "ground_truth_answer": "Through low-rank factorization of the momentum matrix: instead of maintaining the full momentum matrix m, decompose it as the product of two low-rank matrices to develop a memory-efficient optimizer.",
+    "relevant_chunk_ids": [
+      "2602.24283v1_p1_c3",
+      "2602.24283v1_p1_c2",
+      "2602.24283v1_p0_c1"
+    ],
+    "source_paper": "Taming Momentum: Rethinking Optimizer States Through Low-Rank Approximation",
+    "arxiv_id": "2602.24283v1",
+    "type": "semantic",
+    "notes": "Semantic paraphrase: uses GPU memory consumption/large AI models instead of memory-efficient/momentum compression"
+  },
+  {
+    "question": "What is the theoretical insight linking momentum in gradient descent to approximating past gradient information?",
+    "ground_truth_answer": "Momentum accumulation can be viewed as fitting a linear model to approximate the gradient history, revealing that the momentum update rule is equivalent to solving a linear regression problem.",
+    "relevant_chunk_ids": [
+      "2602.24283v1_p1_c3",
+      "2602.24283v1_p1_c2"
+    ],
+    "source_paper": "Taming Momentum: Rethinking Optimizer States Through Low-Rank Approximation",
+    "arxiv_id": "2602.24283v1",
+    "type": "semantic",
+    "notes": "Semantic paraphrase: uses linking/past gradient information instead of equivalence reveals/gradient history"
+  },
+  {
+    "question": "What makes writing efficient GPU programs so challenging, and how can machine learning help automate this task?",
+    "ground_truth_answer": "The development and optimization of high-performance CUDA kernels remain highly challenging, requiring deep understanding of GPU microarchitectural features. CUDA Agent uses large-scale agentic RL to generate optimized kernels automatically.",
+    "relevant_chunk_ids": [
+      "2602.24286v1_p0_c1",
+      "2602.24286v1_p0_c0",
+      "2602.24286v1_p1_c2",
+      "2602.24286v1_p1_c3"
+    ],
+    "source_paper": "CUDA Agent: Large-Scale Agentic RL for High-Performance CUDA Kernel Generation",
+    "arxiv_id": "2602.24286v1",
+    "type": "semantic",
+    "notes": "Semantic paraphrase: uses writing efficient GPU programs instead of CUDA kernels, machine learning instead of agentic RL"
+  },
+  {
+    "question": "Can keeping AI-generated responses in the conversation history actually cause the model to produce incorrect outputs?",
+    "ground_truth_answer": "Yes, when the previous assistant response remains in context, the model can incorrectly carry over elements from earlier responses, introducing bugs. For example, carrying over the Jaccard metric from UMAP into a t-SNE implementation.",
+    "relevant_chunk_ids": [
+      "2602.24287v1_p0_c1",
+      "2602.24287v1_p0_c0",
+      "2602.24287v1_p1_c2",
+      "2602.24287v1_p1_c3"
+    ],
+    "source_paper": "Do LLMs Benefit From Their Own Words?",
+    "arxiv_id": "2602.24287v1",
+    "type": "semantic",
+    "notes": "Semantic paraphrase: uses AI-generated responses/incorrect outputs instead of previous assistant response/introducing a bug"
+  },
+  {
+    "question": "How often are follow-up messages in chatbot conversations actually independent of the previous discussion?",
+    "ground_truth_answer": "A substantial fraction (36.4%) of turns in real-world multi-turn conversations are self-contained, meaning the request can be addressed from scratch using the current and prior user turns alone.",
+    "relevant_chunk_ids": [
+      "2602.24287v1_p1_c3",
+      "2602.24287v1_p0_c0",
+      "2602.24287v1_p0_c1"
+    ],
+    "source_paper": "Do LLMs Benefit From Their Own Words?",
+    "arxiv_id": "2602.24287v1",
+    "type": "semantic",
+    "notes": "Semantic paraphrase: uses independent of previous discussion instead of self-contained"
+  },
+  {
+    "question": "What important aspects of data science code quality are overlooked when we only check whether the final output is correct?",
+    "ground_truth_answer": "Process fidelity and reproducibility are largely unmeasured. Existing benchmarks can only evaluate final-answer accuracy, leaving these valuable metrics unmeasured.",
+    "relevant_chunk_ids": [
+      "2602.24288v1_p0_c1",
+      "2602.24288v1_p0_c0",
+      "2602.24288v1_p1_c2"
+    ],
+    "source_paper": "DARE-bench: Evaluating Modeling and Instruction Fidelity of LLMs in Data Science",
+    "arxiv_id": "2602.24288v1",
+    "type": "semantic",
+    "notes": "Semantic paraphrase: uses data science code quality/overlooked instead of process fidelity/unmeasured"
   }
 ]
